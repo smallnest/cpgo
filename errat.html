@@ -88,6 +88,12 @@
         <td>zzhaolei</td>
       </tr>
       <tr>
+        <td>60</td>
+        <td>原文:token实现重入锁中的recursion字段</td>
+        <td>建议: 修改成<code>atomic.Int64<code>,代码中对recursion字段使用原子操作</td>
+        <td>songzhibin97</td>
+      </tr>
+      <tr>
         <td>61</td>
         <td>原文: NewConcurrencyMap使用了可变参数<code>size ...int</code></td>
         <td>建议: 不需要使用可变参数，修改为<code>size int</code>,方法体中也需要做相应的检查和修改</td>
